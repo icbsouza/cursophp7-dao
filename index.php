@@ -31,10 +31,16 @@
 		// $aluno->insert();
 		// echo $aluno;
 
-	// 
+	// Atualizando valores no banco de dados
+		// $usuario = new Usuario();
+		// $usuario->loadbyId(7);
+		// $usuario->update("Professor", "31#$%");
+		// echo $usuario;
+
+	// Deletar um usuario do banco de dados
 		$usuario = new Usuario();
-		$usuario->loadbyId(8);
-		$usuario->update("Professor", "31#$%");
+		$usuario->loadbyId(5);
+		$usuario->delete();
 		echo $usuario;
 
 ?>
